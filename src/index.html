@@ -7,6 +7,22 @@
     <title>Document</title>
   </head>
   <body>
-    <img src="./assets/images/download.jpeg" />
+    <form id="form">
+      <label>
+        <select name="coins" id="coins">
+          <option value="bitcoin">Bitcoin</option>
+        </select>
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+    <label for="coinHistory"> 
+      Enter the Date: 
+  </label> 
+  <input type="date" name="begin" 
+      placeholder="dd-mm-yyyy" value=""
+      min="1997-01-01" max="2023-11-15"> 
+    <div id="result"></div>
+    <div id="resultData"></div>
+    <p>powered by coinGecko</p>
   </body>
 </html>
