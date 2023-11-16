@@ -13,14 +13,14 @@
           <option value="bitcoin">Bitcoin</option>
         </select>
       </label>
+      <label for="coinHistory">
+        Enter date here:
+        <input type="date" name="begin" id ="date"
+        placeholder="DD/MM/YYYY" value=""
+        min="01-01-1997" max="31-12-2023"> 
+      </label>
       <button type="submit">Submit</button>
     </form>
-    <label for="coinHistory"> 
-      Enter the Date: 
-  </label> 
-  <input type="date" name="begin" 
-      placeholder="dd-mm-yyyy" value=""
-      min="1997-01-01" max="2023-11-15"> 
     <div id="result"></div>
     <div id="resultData"></div>
     <p>powered by coinGecko</p>
